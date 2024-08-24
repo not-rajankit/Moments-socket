@@ -1,6 +1,7 @@
 const io = require("socket.io")(8900, {
   cors: {
-    origin: "http://localhost:3000",
+    // origin: "http://localhost:3000",
+    origin: "https://moments-frontend-sepia.vercel.app",
   },
 });
 let users = [];
